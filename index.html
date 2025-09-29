@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="main.css">
+    <style>
+        img {
+            /*display: block;*/
+        }
+
+        body {
+            background-image: linear-gradient(orchid, yellow);
+            background-repeat: repeat;
+        }
+
+        div {
+            position: relative;
+            margin: 0 auto;
+            width: 500px;
+            height: 100vh;
+            background-color: green;
+        }
+
+        .ace {
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            z-index: 1;
+        }
+
+        .king {
+            position: absolute;
+            top: 20%;
+            left: 10%;
+            z-index: 3;
+        }
+
+        .queen {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            z-index: 6;
+        }
+
+        .jack {
+            position: absolute;
+            top: 40%;
+            left: 10%;
+            z-index: 7;
+        }
+
+        .playing_card {
+            position: absolute;
+            top: 2%;
+            left: 10%;
+            z-index: 0;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div>
+    <img class="playing_card" src="img/img/playing_card_back.png" alt="Playing Card Back" height="243" width="167"/>
+    <img class="jack" src="img/img/jack_of_hearts.png" alt="Jack of Hearts" height="243" width="167"/>
+    <img class="queen" src="img/img/queen_of_spades.png" alt="Queen of Spades" height="243" width="167"/>
+    <img class="king" src="img/img/king_of_diamonds.png" alt="King of Diamonds" height="243" width="167"/>
+    <img class="ace" src="img/img/ace_of_clubs.png" alt="Ace of Clubs" height="243" width="167"/>
+</div>
+
+</body>
+</html>
